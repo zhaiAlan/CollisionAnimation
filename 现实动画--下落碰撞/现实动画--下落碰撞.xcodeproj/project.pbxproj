@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7715E76224C68140058B40F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7715E75224C68140058B40F /* AppDelegate.m */; };
+		E7715E79224C68140058B40F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7715E78224C68140058B40F /* ViewController.m */; };
+		E7715E7C224C68140058B40F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7715E7A224C68140058B40F /* Main.storyboard */; };
+		E7715E7F224C68140058B40F /* __________.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7715E7D224C68140058B40F /* __________.xcdatamodeld */; };
+		E7715E81224C68150058B40F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7715E80224C68150058B40F /* Assets.xcassets */; };
+		E7715E84224C68150058B40F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7715E82224C68150058B40F /* LaunchScreen.storyboard */; };
+		E7715E87224C68150058B40F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7715E86224C68150058B40F /* main.m */; };
+		E7715E91224C68150058B40F /* __________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7715E90224C68150058B40F /* __________Tests.m */; };
+		E7715E9C224C68150058B40F /* __________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7715E9B224C68150058B40F /* __________UITests.m */; };
+		E7715EAA224C68710058B40F /* bird1.png in Resources */ = {isa = PBXBuildFile; fileRef = E7715EA9224C68710058B40F /* bird1.png */; };
+		E7715EAC224C68770058B40F /* bluebird1.png in Resources */ = {isa = PBXBuildFile; fileRef = E7715EAB224C68770058B40F /* bluebird1.png */; };
+		E7715EAE224C687D0058B40F /* circlewood1.png in Resources */ = {isa = PBXBuildFile; fileRef = E7715EAD224C687C0058B40F /* circlewood1.png */; };
+		E7715EB0224C68840058B40F /* bird_11.png in Resources */ = {isa = PBXBuildFile; fileRef = E7715EAF224C68840058B40F /* bird_11.png */; };
+		E7715EB2224C68900058B40F /* littlestone1.png in Resources */ = {isa = PBXBuildFile; fileRef = E7715EB1224C688F0058B40F /* littlestone1.png */; };
+		E7715EB4224C68960058B40F /* pig_3.png in Resources */ = {isa = PBXBuildFile; fileRef = E7715EB3224C68960058B40F /* pig_3.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7715E8D224C68150058B40F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7715E69224C68140058B40F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7715E70224C68140058B40F;
+			remoteInfo = "现实动画--下落碰撞";
+		};
+		E7715E98224C68150058B40F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7715E69224C68140058B40F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7715E70224C68140058B40F;
+			remoteInfo = "现实动画--下落碰撞";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7715E71224C68140058B40F /* 现实动画--下落碰撞.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "现实动画--下落碰撞.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7715E74224C68140058B40F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7715E75224C68140058B40F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7715E77224C68140058B40F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E7715E78224C68140058B40F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E7715E7B224C68140058B40F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7715E7E224C68140058B40F /* __________.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "__________.xcdatamodel"; sourceTree = "<group>"; };
+		E7715E80224C68150058B40F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7715E83224C68150058B40F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7715E85224C68150058B40F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7715E86224C68150058B40F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7715E8C224C68150058B40F /* 现实动画--下落碰撞Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "现实动画--下落碰撞Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7715E90224C68150058B40F /* __________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__________Tests.m"; sourceTree = "<group>"; };
+		E7715E92224C68150058B40F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7715E97224C68150058B40F /* 现实动画--下落碰撞UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "现实动画--下落碰撞UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7715E9B224C68150058B40F /* __________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__________UITests.m"; sourceTree = "<group>"; };
+		E7715E9D224C68150058B40F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7715EA9224C68710058B40F /* bird1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird1.png; sourceTree = "<group>"; };
+		E7715EAB224C68770058B40F /* bluebird1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluebird1.png; sourceTree = "<group>"; };
+		E7715EAD224C687C0058B40F /* circlewood1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circlewood1.png; sourceTree = "<group>"; };
+		E7715EAF224C68840058B40F /* bird_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_11.png; sourceTree = "<group>"; };
+		E7715EB1224C688F0058B40F /* littlestone1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = littlestone1.png; sourceTree = "<group>"; };
+		E7715EB3224C68960058B40F /* pig_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pig_3.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7715E6E224C68140058B40F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7715E89224C68150058B40F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7715E94224C68150058B40F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7715E68224C68140058B40F = {
+			isa = PBXGroup;
+			children = (
+				E7715E73224C68140058B40F /* 现实动画--下落碰撞 */,
+				E7715E8F224C68150058B40F /* 现实动画--下落碰撞Tests */,
+				E7715E9A224C68150058B40F /* 现实动画--下落碰撞UITests */,
+				E7715E72224C68140058B40F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7715E72224C68140058B40F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7715E71224C68140058B40F /* 现实动画--下落碰撞.app */,
+				E7715E8C224C68150058B40F /* 现实动画--下落碰撞Tests.xctest */,
+				E7715E97224C68150058B40F /* 现实动画--下落碰撞UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7715E73224C68140058B40F /* 现实动画--下落碰撞 */ = {
+			isa = PBXGroup;
+			children = (
+				E7715EB3224C68960058B40F /* pig_3.png */,
+				E7715EB1224C688F0058B40F /* littlestone1.png */,
+				E7715EAF224C68840058B40F /* bird_11.png */,
+				E7715EAD224C687C0058B40F /* circlewood1.png */,
+				E7715EAB224C68770058B40F /* bluebird1.png */,
+				E7715EA9224C68710058B40F /* bird1.png */,
+				E7715E74224C68140058B40F /* AppDelegate.h */,
+				E7715E75224C68140058B40F /* AppDelegate.m */,
+				E7715E77224C68140058B40F /* ViewController.h */,
+				E7715E78224C68140058B40F /* ViewController.m */,
+				E7715E7A224C68140058B40F /* Main.storyboard */,
+				E7715E80224C68150058B40F /* Assets.xcassets */,
+				E7715E82224C68150058B40F /* LaunchScreen.storyboard */,
+				E7715E85224C68150058B40F /* Info.plist */,
+				E7715E86224C68150058B40F /* main.m */,
+				E7715E7D224C68140058B40F /* __________.xcdatamodeld */,
+			);
+			path = "现实动画--下落碰撞";
+			sourceTree = "<group>";
+		};
+		E7715E8F224C68150058B40F /* 现实动画--下落碰撞Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E7715E90224C68150058B40F /* __________Tests.m */,
+				E7715E92224C68150058B40F /* Info.plist */,
+			);
+			path = "现实动画--下落碰撞Tests";
+			sourceTree = "<group>";
+		};
+		E7715E9A224C68150058B40F /* 现实动画--下落碰撞UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7715E9B224C68150058B40F /* __________UITests.m */,
+				E7715E9D224C68150058B40F /* Info.plist */,
+			);
+			path = "现实动画--下落碰撞UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7715E70224C68140058B40F /* 现实动画--下落碰撞 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7715EA0224C68150058B40F /* Build configuration list for PBXNativeTarget "现实动画--下落碰撞" */;
+			buildPhases = (
+				E7715E6D224C68140058B40F /* Sources */,
+				E7715E6E224C68140058B40F /* Frameworks */,
+				E7715E6F224C68140058B40F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "现实动画--下落碰撞";
+			productName = "现实动画--下落碰撞";
+			productReference = E7715E71224C68140058B40F /* 现实动画--下落碰撞.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7715E8B224C68150058B40F /* 现实动画--下落碰撞Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7715EA3224C68150058B40F /* Build configuration list for PBXNativeTarget "现实动画--下落碰撞Tests" */;
+			buildPhases = (
+				E7715E88224C68150058B40F /* Sources */,
+				E7715E89224C68150058B40F /* Frameworks */,
+				E7715E8A224C68150058B40F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7715E8E224C68150058B40F /* PBXTargetDependency */,
+			);
+			name = "现实动画--下落碰撞Tests";
+			productName = "现实动画--下落碰撞Tests";
+			productReference = E7715E8C224C68150058B40F /* 现实动画--下落碰撞Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7715E96224C68150058B40F /* 现实动画--下落碰撞UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7715EA6224C68150058B40F /* Build configuration list for PBXNativeTarget "现实动画--下落碰撞UITests" */;
+			buildPhases = (
+				E7715E93224C68150058B40F /* Sources */,
+				E7715E94224C68150058B40F /* Frameworks */,
+				E7715E95224C68150058B40F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7715E99224C68150058B40F /* PBXTargetDependency */,
+			);
+			name = "现实动画--下落碰撞UITests";
+			productName = "现实动画--下落碰撞UITests";
+			productReference = E7715E97224C68150058B40F /* 现实动画--下落碰撞UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7715E69224C68140058B40F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = zhaixingzhi;
+				TargetAttributes = {
+					E7715E70224C68140058B40F = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					E7715E8B224C68150058B40F = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = E7715E70224C68140058B40F;
+					};
+					E7715E96224C68150058B40F = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = E7715E70224C68140058B40F;
+					};
+				};
+			};
+			buildConfigurationList = E7715E6C224C68140058B40F /* Build configuration list for PBXProject "现实动画--下落碰撞" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7715E68224C68140058B40F;
+			productRefGroup = E7715E72224C68140058B40F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7715E70224C68140058B40F /* 现实动画--下落碰撞 */,
+				E7715E8B224C68150058B40F /* 现实动画--下落碰撞Tests */,
+				E7715E96224C68150058B40F /* 现实动画--下落碰撞UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7715E6F224C68140058B40F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7715EB0224C68840058B40F /* bird_11.png in Resources */,
+				E7715EAE224C687D0058B40F /* circlewood1.png in Resources */,
+				E7715EAC224C68770058B40F /* bluebird1.png in Resources */,
+				E7715EB2224C68900058B40F /* littlestone1.png in Resources */,
+				E7715E84224C68150058B40F /* LaunchScreen.storyboard in Resources */,
+				E7715EB4224C68960058B40F /* pig_3.png in Resources */,
+				E7715E81224C68150058B40F /* Assets.xcassets in Resources */,
+				E7715EAA224C68710058B40F /* bird1.png in Resources */,
+				E7715E7C224C68140058B40F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7715E8A224C68150058B40F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7715E95224C68150058B40F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7715E6D224C68140058B40F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7715E79224C68140058B40F /* ViewController.m in Sources */,
+				E7715E7F224C68140058B40F /* __________.xcdatamodeld in Sources */,
+				E7715E87224C68150058B40F /* main.m in Sources */,
+				E7715E76224C68140058B40F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7715E88224C68150058B40F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7715E91224C68150058B40F /* __________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7715E93224C68150058B40F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7715E9C224C68150058B40F /* __________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7715E8E224C68150058B40F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7715E70224C68140058B40F /* 现实动画--下落碰撞 */;
+			targetProxy = E7715E8D224C68150058B40F /* PBXContainerItemProxy */;
+		};
+		E7715E99224C68150058B40F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7715E70224C68140058B40F /* 现实动画--下落碰撞 */;
+			targetProxy = E7715E98224C68150058B40F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7715E7A224C68140058B40F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7715E7B224C68140058B40F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7715E82224C68150058B40F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7715E83224C68150058B40F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7715E9E224C68150058B40F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E7715E9F224C68150058B40F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7715EA1224C68150058B40F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "现实动画--下落碰撞/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.anbang.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7715EA2224C68150058B40F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "现实动画--下落碰撞/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.anbang.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E7715EA4224C68150058B40F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "现实动画--下落碰撞Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.anbang.----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/现实动画--下落碰撞.app/现实动画--下落碰撞";
+			};
+			name = Debug;
+		};
+		E7715EA5224C68150058B40F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "现实动画--下落碰撞Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.anbang.----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/现实动画--下落碰撞.app/现实动画--下落碰撞";
+			};
+			name = Release;
+		};
+		E7715EA7224C68150058B40F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "现实动画--下落碰撞UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.anbang.----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "现实动画--下落碰撞";
+			};
+			name = Debug;
+		};
+		E7715EA8224C68150058B40F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "现实动画--下落碰撞UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.anbang.----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "现实动画--下落碰撞";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7715E6C224C68140058B40F /* Build configuration list for PBXProject "现实动画--下落碰撞" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7715E9E224C68150058B40F /* Debug */,
+				E7715E9F224C68150058B40F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7715EA0224C68150058B40F /* Build configuration list for PBXNativeTarget "现实动画--下落碰撞" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7715EA1224C68150058B40F /* Debug */,
+				E7715EA2224C68150058B40F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7715EA3224C68150058B40F /* Build configuration list for PBXNativeTarget "现实动画--下落碰撞Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7715EA4224C68150058B40F /* Debug */,
+				E7715EA5224C68150058B40F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7715EA6224C68150058B40F /* Build configuration list for PBXNativeTarget "现实动画--下落碰撞UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7715EA7224C68150058B40F /* Debug */,
+				E7715EA8224C68150058B40F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E7715E7D224C68140058B40F /* __________.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E7715E7E224C68140058B40F /* __________.xcdatamodel */,
+			);
+			currentVersion = E7715E7E224C68140058B40F /* __________.xcdatamodel */;
+			path = "__________.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E7715E69224C68140058B40F /* Project object */;
+}
